@@ -1,0 +1,25 @@
+{
+  "name": "autogenerate_unit_test_part_02",
+  "version": "1.0.0",
+  "description": "Parse and traverse a source file and AST for autogenerating a unit test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "prettier": "prettier --write \"src/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schempy/"
+  },
+  "author": "Brian Schemp <bschemp@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-generator": "6.24.1",
+    "babel-traverse": "6.24.1",
+    "babel-types": "6.24.1",
+    "babylon": "6.17.1"
+  },
+  "devDependencies": {
+    "prettier": "1.7.4"
+  }
+}
